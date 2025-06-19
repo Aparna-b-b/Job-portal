@@ -6,6 +6,7 @@ const JobCard = ({ job }) => {
 
 const navigate=useNavigate()
 
+
   return (
     <div className='border p-6 shadow rounded'>
         <div className='flex justify-between items-center'>

@@ -5,8 +5,11 @@ import { useEffect } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
+import { useClerk } from '@clerk/clerk-react'
 
 const RecruiterLogin = () => {
+
+    const { signOut } = useClerk();
 
     const navigate = useNavigate()
 
@@ -32,7 +35,7 @@ const RecruiterLogin = () => {
             if (state === "Login") {
                 const { data } = await axios.post(backendUrl + '/api/company/login', { email, password })
                 if (data.success) {
-
+                     await signOut();
                     setCompanyData(data.company)
                     setCompanyToken(data.token)
                     localStorage.setItem('companyToken', data.token)

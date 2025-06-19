@@ -47,7 +47,7 @@ const applyHandler=async ()=>{
       return toast.error('Upload resume to apply')
     }
     const token=await getToken()
-    const { data } = await axios.post(backendUrl + '/api/users/apply',
+    const { data } = await axios.post(`${backendUrl}/api/users/apply`,
   { jobId: JobData._id }, // send just the job id
   { headers: { Authorization: `Bearer ${token}` } }
 );
