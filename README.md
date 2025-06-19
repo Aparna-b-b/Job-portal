@@ -54,7 +54,7 @@ Additional libraries:
 ## 🧪 Live Demo (Optional)
 
 > You can mention:
-> - [Frontend Live on Vercel](https://job-portal-client-five-iota.vercel.app/))
+> - [Frontend Live on Vercel](https://job-portal-gy1a.vercel.app/))
 > - [Backend Deployed on Render]((https://job-portal-seven-chi.vercel.app/))
 
 ---
