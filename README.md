@@ -38,7 +38,9 @@ Additional libraries:
 
 ## 📸 Screenshots
 
-> Add these screenshots in a `/screenshots` folder
+>![Alt text](https://github.com/Aparna-b-b/Job-portal/tree/main/screenshots)
+>
+
 
 ### 🔍 Job Listings Page
 
