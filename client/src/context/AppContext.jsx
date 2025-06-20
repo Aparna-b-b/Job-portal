@@ -63,6 +63,7 @@ export const AppContextProvider = (props) =>{
 const fetchUserData=async()=>{
     try {
        const token=await getToken();
+
        const {data}=await axios.get(backendUrl+'/api/users/user',
         {headers:{Authorization:`Bearer ${token}`}}
        ) 
@@ -85,9 +86,9 @@ const fetchUserData=async()=>{
             )
             if (data.success) {
                 setUserApplications(data.applications)
-            }else{
+            }else(
                 toast.error(data.message)
-            }
+            )
         } catch (error) {
             toast.error(error.message)
         }

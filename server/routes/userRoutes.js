@@ -14,7 +14,7 @@ router.post('/apply',protectUser,applyForJob)
 //Get applied job data
 router.get('/applications',protectUser,getUserJobApplications)
 
-//update user profile(resume)
+//update user profile(resume)a
 router.post('/upload',upload.single('resume'),updateUserResume)
 
 export default router;
