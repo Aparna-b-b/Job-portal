@@ -51,11 +51,10 @@ Additional libraries:
 
 ---
 
-## 🧪 Live Demo (Optional)
+## 🧪 Live Demo 
 
-> You can mention:
-> - [Frontend Live on Vercel](https://job-portal-gy1a.vercel.app/))
-> - [Backend Deployed on Render]((https://job-portal-seven-chi.vercel.app/))
+- Frontend Live on Vercel: https://job-portal-gy1a.vercel.app/
+- Backend Deployed on Render: https://job-portal-seven-chi.vercel.app/
 
 ---
 
