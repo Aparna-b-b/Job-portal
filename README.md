@@ -60,7 +60,7 @@ Additional libraries:
 ---
 
 ## 📂 Project Structure
-job-portal/
+```job-portal/
 │
 ├── client/ # React frontend
 │ ├── components/ # Reusable UI components
@@ -74,4 +74,4 @@ job-portal/
 │ └── index.js # Server entry point
 │
 ├── .env # Environment variables
-└── README.md # Project documentation
+└── README.md # Project documentation```
